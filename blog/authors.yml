@@ -1,25 +1,33 @@
-yangshun:
-  name: Yangshun Tay
-  title: Ex-Meta Staff Engineer, Co-founder GreatFrontEnd
-  url: https://linkedin.com/in/yangshun
-  image_url: https://github.com/yangshun.png
+catedra:
+  name: Cátedra de Programación II
+  title: Equipo Docente
+  url: https://github.com/martinprlt/Portal-programacion-II
+  image_url: https://github.com/martinprlt.png
   page: true
-  socials:
-    x: yangshunz
-    linkedin: yangshun
-    github: yangshun
-    newsletter: https://www.greatfrontend.com
 
-slorber:
-  name: Sébastien Lorber
-  title: Docusaurus maintainer
-  url: https://sebastienlorber.com
-  image_url: https://github.com/slorber.png
-  page:
-    # customize the url of the author page at /blog/authors/<permalink>
-    permalink: '/all-sebastien-lorber-articles'
+marceloroldan:
+  name: Marcelo Roldán
+  title: Profesor
+  url: https://www.linkedin.com/in/marceloroldan/
+  image_url: https://media.licdn.com/dms/image/v2/C4D03AQFoITked5Ob8A/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516525141709?e=1765411200&v=beta&t=66TlpC11tDkJ6ZYddzfJ1Ex_UyXqQjdb1WQm_0MWA9w
+  page: false
   socials:
-    x: sebastienlorber
-    linkedin: sebastienlorber
-    github: slorber
-    newsletter: https://thisweekinreact.com
+    linkedin: marceloroldan
+
+gustavosaavedra:
+  name: Gustavo Saavedra
+  title: Profesor
+  url: https://www.linkedin.com/in/gustavo-saavedra-9538534a/
+  image_url: https://media.licdn.com/dms/image/v2/D4D03AQG9rItHQjj1_Q/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1696201513385?e=1765411200&v=beta&t=TQZ7alYdCIhVkcY74Q1Axzkbioiu6zLg4Qxs8QIWBIU
+  page: false
+  socials:
+    linkedin: gustavo-saavedra-9538534a
+
+cristianbazan:
+  name: Cristian Bazán
+  title: Profesor
+  url: https://www.linkedin.com/in/cristian-baz%C3%A1n-a0b7bba4/
+  image_url: https://github.com/martinprlt.png
+  page: false
+  socials:
+    linkedin: cristian-bazán-a0b7bba4

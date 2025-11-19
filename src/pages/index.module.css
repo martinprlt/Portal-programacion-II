@@ -1,13 +1,17 @@
-/**
- * CSS files with the .module.css suffix will be treated as CSS modules
- * and scoped locally.
- */
-
 .heroBanner {
   padding: 4rem 0;
   text-align: center;
   position: relative;
   overflow: hidden;
+  background: linear-gradient(135deg, var(--ifm-color-primary) 0%, var(--ifm-color-secondary) 100%);
+}
+
+[data-theme='dark'] .heroBanner {
+  background: linear-gradient(135deg, #1a2754 0%, #004a7c 100%);
+}
+
+.heroBanner h1, .heroBanner p {
+  color: white !important;
 }
 
 @media screen and (max-width: 996px) {
@@ -20,4 +24,195 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 2rem;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.features {
+  display: flex;
+  align-items: center;
+  padding: 3rem 0;
+  width: 100%;
+  background-color: var(--ifm-background-color);
+}
+
+.features h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: var(--ifm-color-primary);
+}
+
+.recentSection {
+  padding: 3rem 0;
+  background-color: var(--ifm-color-emphasis-100);
+}
+
+[data-theme='dark'] .recentSection {
+  background-color: var(--ifm-background-surface-color);
+}
+
+.recentSection h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: var(--ifm-color-primary);
+}
+
+.recentContentLink {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.recentContentCard {
+  padding: 1.5rem;
+  border-radius: 8px;
+  background: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  border-left: 4px solid var(--ifm-color-primary);
+}
+
+[data-theme='dark'] .recentContentCard {
+  background: var(--ifm-background-surface-color);
+  box-shadow: 0 2px 8px rgba(255, 255, 255, 0.05);
+}
+
+.recentContentCard:hover {
+  transform: translateX(4px);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
+
+[data-theme='dark'] .recentContentCard:hover {
+  box-shadow: 0 4px 16px rgba(255, 255, 255, 0.1);
+}
+
+.recentContentHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.75rem;
+}
+
+.recentContentDate {
+  font-size: 0.85rem;
+  color: var(--ifm-color-emphasis-600);
+}
+
+.recentContentTitle {
+  margin: 0.5rem 0;
+  font-size: 1.25rem;
+  color: var(--ifm-heading-color);
+}
+
+.recentContentDesc {
+  margin: 0;
+  color: var(--ifm-color-emphasis-700);
+  font-size: 0.95rem;
+}
+
+.quickAccess {
+  padding: 3rem 0;
+  background-color: var(--ifm-background-color);
+}
+
+.quickAccess h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: var(--ifm-color-primary);
+}
+
+.quickLink {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  height: 100%;
+}
+
+.quickLinkCard {
+  padding: 1.5rem;
+  border-radius: 8px;
+  background: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  text-align: center;
+  height: 100%;
+  border-top: 3px solid var(--ifm-color-primary);
+}
+
+[data-theme='dark'] .quickLinkCard {
+  background: var(--ifm-background-surface-color);
+  box-shadow: 0 2px 8px rgba(255, 255, 255, 0.05);
+}
+
+.quickLinkCard:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+[data-theme='dark'] .quickLinkCard:hover {
+  box-shadow: 0 6px 20px rgba(255, 255, 255, 0.1);
+}
+
+.quickLinkCard h3 {
+  margin-bottom: 0.5rem;
+  font-size: 1.25rem;
+  color: var(--ifm-color-primary);
+}
+
+.quickLinkCard p {
+  margin: 0;
+  color: var(--ifm-color-emphasis-700);
+  font-size: 0.9rem;
+}
+
+.ctaSection {
+  padding: 3rem 0;
+  background: linear-gradient(135deg, var(--ifm-color-primary-lighter) 0%, var(--ifm-color-secondary-lighter) 100%);
+}
+
+[data-theme='dark'] .ctaSection {
+  background: linear-gradient(135deg, #2a3f6f 0%, #1a5f8f 100%);
+}
+
+.ctaBox {
+  text-align: center;
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+[data-theme='dark'] .ctaBox {
+  background: rgba(0, 0, 0, 0.3);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.ctaBox h3 {
+  margin-bottom: 1rem;
+  font-size: 1.75rem;
+  color: var(--ifm-color-primary);
+}
+
+[data-theme='dark'] .ctaBox h3 {
+  color: var(--ifm-color-primary-lighter);
+}
+
+.ctaBox p {
+  margin-bottom: 1.5rem;
+  font-size: 1.1rem;
+  color: var(--ifm-color-emphasis-700);
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+  .recentContentHeader {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+  
+  .quickLinkCard {
+    margin-bottom: 1rem;
+  }
 }

@@ -1,19 +1,24 @@
-facebook:
-  label: Facebook
-  permalink: /facebook
-  description: Facebook tag description
+anuncio:
+  label: Anuncio
+  permalink: /anuncio
+  description: Anuncios oficiales de la cátedra
 
-hello:
-  label: Hello
-  permalink: /hello
-  description: Hello tag description
+bienvenida:
+  label: Bienvenida
+  permalink: /bienvenida
+  description: Mensajes de bienvenida
 
-docusaurus:
-  label: Docusaurus
-  permalink: /docusaurus
-  description: Docusaurus tag description
+material:
+  label: Nuevo Material
+  permalink: /material
+  description: Notificaciones de nuevo material disponible
 
-hola:
-  label: Hola
-  permalink: /hola
-  description: Hola tag description
+fechas:
+  label: Fechas Importantes
+  permalink: /fechas
+  description: Fechas de parciales, entregas y eventos
+
+recursos:
+  label: Recursos
+  permalink: /recursos
+  description: Recursos adicionales y herramientas

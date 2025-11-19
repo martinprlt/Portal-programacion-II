@@ -1,44 +1,38 @@
 // @ts-check
-// `@type` JSDoc annotations allow editor autocompletion and type checking
-// (when paired with `@ts-check`).
-// There are various equivalent ways to declare your Docusaurus config.
-// See: https://docusaurus.io/docs/api/docusaurus-config
-
 import {themes as prismThemes} from 'prism-react-renderer';
-
-// This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Programacion 2',
-  tagline: 'Portal de guias y tutoriales de Programacion 2',
+  title: 'Programación II',
+  tagline: 'Portal de guías y tutoriales de Programación II',
   favicon: 'img/favicone.ico',
 
-  // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
-    v4: true, // Improve compatibility with the upcoming Docusaurus v4
+    v4: true,
   },
 
-  // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  url: 'https://martinprlt.github.io',
+  baseUrl: '/Portal-programacion-II/',
 
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'martinprlt', // Usually your GitHub org/user name.
-  projectName: 'Portal-programacion-II', // Usually your repo name.
+  organizationName: 'martinprlt',
+  projectName: 'Portal-programacion-II',
 
   onBrokenLinks: 'throw',
+  onBrokenMarkdownLinks: 'warn',
 
-  // Even if you don't use internationalization, you can use this field to set
-  // useful metadata like html lang. For example, if your site is Chinese, you
-  // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'es',
+    locales: ['es'],
   },
+
+  // plugins: [
+  //   [
+  //     resolve(__dirname, './src/plugins/recent-content-plugin.js'),
+  //     {
+  //       limit: 5, // Número de items recientes a mostrar
+  //     },
+  //   ],
+  // ],
 
   presets: [
     [
@@ -47,25 +41,17 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: 'https://github.com/martinprlt/Portal-programacion-II/tree/main/',
         },
         blog: {
           showReadingTime: true,
+          blogTitle: 'Novedades de la Cátedra',
+          blogDescription: 'Últimas noticias y actualizaciones',
+          postsPerPage: 'ALL',
           feedOptions: {
             type: ['rss', 'atom'],
             xslt: true,
           },
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-          // Useful options to enforce blogging best practices
-          onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -77,15 +63,15 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       colorMode: {
+        defaultMode: 'light',
         respectPrefersColorScheme: true,
       },
       navbar: {
-        title: 'My Site',
+        title: 'Programación II',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Logo Programación II',
           src: 'img/logo.svg',
         },
         items: [
@@ -93,11 +79,15 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: '📚 Documentación',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            to: '/blog', 
+            label: '📰 Novedades', 
+            position: 'left'
+          },
+          {
+            href: 'https://github.com/martinprlt/Portal-programacion-II',
             label: 'GitHub',
             position: 'right',
           },
@@ -107,33 +97,33 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Contenidos',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Documentación',
+                to: '/docs/introduccion',
+              },
+              {
+                label: 'Tutoriales',
+                to: '/docs/tutoriales/guia-instalacion',
               },
             ],
           },
           {
-            title: 'Community',
+            title: 'Recursos',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Material de Lectura',
+                to: '/docs/lectura/material-1',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'X',
-                href: 'https://x.com/docusaurus',
+                label: 'Ejemplos',
+                to: '/docs/ejemplos/ejemplo-basico',
               },
             ],
           },
           {
-            title: 'More',
+            title: 'Más',
             items: [
               {
                 label: 'Blog',
@@ -141,16 +131,17 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/martinprlt/Portal-programacion-II',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Programación II - Construido con Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
+        additionalLanguages: ['python', 'bash'],
       },
     }),
 };
