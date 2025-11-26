@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkportal_catedra=globalThis.webpackChunkportal_catedra||[]).push([[86],{2473:a=>{a.exports=JSON.parse('{"metadata":{"permalink":"/Portal-programacion-II/blog","page":1,"postsPerPage":1,"totalPages":1,"totalCount":1,"blogDescription":"\xdaltimas noticias y actualizaciones","blogTitle":"Novedades de la C\xe1tedra"}}')}}]);

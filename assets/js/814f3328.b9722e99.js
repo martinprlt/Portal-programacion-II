@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkportal_catedra=globalThis.webpackChunkportal_catedra||[]).push([[472],{5513:a=>{a.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"\ud83c\udf89 Bienvenidos al Portal de Programaci\xf3n II","permalink":"/Portal-programacion-II/blog/bienvenida-portal","unlisted":false,"date":"2024-11-19T00:00:00.000Z"}]}')}}]);

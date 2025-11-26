@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkportal_catedra=globalThis.webpackChunkportal_catedra||[]).push([[903],{1912:a=>{a.exports=JSON.parse('{"blogBasePath":"/Portal-programacion-II/blog","blogTitle":"Novedades de la C\xe1tedra","authorsListPath":"/Portal-programacion-II/blog/authors"}')}}]);

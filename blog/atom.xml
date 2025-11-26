@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://martinprlt.github.io/Portal-programacion-II/blog</id>
+    <title>Programación II Blog</title>
+    <updated>2024-11-19T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://martinprlt.github.io/Portal-programacion-II/blog"/>
+    <subtitle>Programación II Blog</subtitle>
+    <icon>https://martinprlt.github.io/Portal-programacion-II/img/favicone.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[🎉 Bienvenidos al Portal de Programación II]]></title>
+        <id>https://martinprlt.github.io/Portal-programacion-II/blog/bienvenida-portal</id>
+        <link href="https://martinprlt.github.io/Portal-programacion-II/blog/bienvenida-portal"/>
+        <updated>2024-11-19T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[¡Bienvenidos al nuevo portal oficial de la cátedra de Programación II!]]></summary>
+        <content type="html"><![CDATA[<p>¡Bienvenidos al nuevo portal oficial de la cátedra de Programación II!</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="qué-es-este-portal">¿Qué es este portal?<a href="https://martinprlt.github.io/Portal-programacion-II/blog/bienvenida-portal#qu%C3%A9-es-este-portal" class="hash-link" aria-label="Enlace directo al ¿Qué es este portal?" title="Enlace directo al ¿Qué es este portal?" translate="no">​</a></h2>
+<p>Este espacio centraliza todo el material de la materia en un único lugar accesible y organizado. Aquí encontrarás:</p>
+<ul>
+<li class="">📚 <strong>Material de lectura</strong> teórico</li>
+<li class="">💻 <strong>Ejemplos de código</strong> comentados</li>
+<li class="">🛠️ <strong>Tutoriales</strong> paso a paso</li>
+<li class="">🎓 <strong>Presentaciones</strong> de clase</li>
+<li class="">📄 <strong>Documentos oficiales</strong> de la cátedra</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="cómo-navegar-el-sitio">¿Cómo navegar el sitio?<a href="https://martinprlt.github.io/Portal-programacion-II/blog/bienvenida-portal#c%C3%B3mo-navegar-el-sitio" class="hash-link" aria-label="Enlace directo al ¿Cómo navegar el sitio?" title="Enlace directo al ¿Cómo navegar el sitio?" translate="no">​</a></h2>
+<p>Utiliza el menú lateral para explorar las diferentes categorías de contenido. Cada sección está organizada temáticamente para facilitar tu aprendizaje.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="novedades-y-actualizaciones">Novedades y actualizaciones<a href="https://martinprlt.github.io/Portal-programacion-II/blog/bienvenida-portal#novedades-y-actualizaciones" class="hash-link" aria-label="Enlace directo al Novedades y actualizaciones" title="Enlace directo al Novedades y actualizaciones" translate="no">​</a></h2>
+<p>Mantente al tanto de las últimas actualizaciones revisando esta sección de novedades regularmente. Aquí publicaremos:</p>
+<ul>
+<li class="">Nuevo material disponible</li>
+<li class="">Fechas importantes</li>
+<li class="">Avisos de la cátedra</li>
+<li class="">Recursos adicionales</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="necesitas-ayuda">¿Necesitas ayuda?<a href="https://martinprlt.github.io/Portal-programacion-II/blog/bienvenida-portal#necesitas-ayuda" class="hash-link" aria-label="Enlace directo al ¿Necesitas ayuda?" title="Enlace directo al ¿Necesitas ayuda?" translate="no">​</a></h2>
+<p>Si tenés alguna duda sobre cómo usar el portal o no encontrás algún material, no dudes en consultar con los docentes.</p>
+<hr>
+<p><em>Última actualización: 19 de Noviembre, 2024</em></p>]]></content>
+        <author>
+            <name>Cátedra de Programación II</name>
+            <uri>https://github.com/martinprlt/Portal-programacion-II</uri>
+        </author>
+        <category label="Anuncio" term="Anuncio"/>
+        <category label="Bienvenida" term="Bienvenida"/>
+    </entry>
+</feed>
