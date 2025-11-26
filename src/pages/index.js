@@ -45,7 +45,7 @@ const RecentContent = [
     typeLabel: '📄 Documento',
     description: 'Programa completo de la materia, contenidos y evaluación',
     link: '/docs/documentos/guia-catedra',
-    date: '2024-11-19',
+    date: '2025-11-24',
   },
   {
     title: 'Clase 1 - Introducción a POO',
@@ -53,7 +53,7 @@ const RecentContent = [
     typeLabel: '🎓 Presentación',
     description: 'Conceptos fundamentales de la Programación Orientada a Objetos',
     link: '/docs/presentaciones/clase-1',
-    date: '2024-11-19',
+    date: '2025-11-24',
   },
   {
     title: 'Ejemplo Avanzado POO',
@@ -61,7 +61,7 @@ const RecentContent = [
     typeLabel: '💻 Ejemplo',
     description: 'Implementación completa de los 4 pilares de POO en Python',
     link: '/docs/ejemplos/ejemplo-basico',
-    date: '2024-11-19',
+    date: '2025-11-24',
   },
   {
     title: 'Material de Lectura 1',
@@ -69,7 +69,7 @@ const RecentContent = [
     typeLabel: '📚 Lectura',
     description: 'Conceptos fundamentales de POO - Teoría',
     link: '/docs/lectura/material-1',
-    date: '2024-11-19',
+    date: '2025-11-24',
   },
   {
     title: 'Guía de Instalación',
@@ -77,7 +77,7 @@ const RecentContent = [
     typeLabel: '🛠️ Tutorial',
     description: 'Configurar el entorno de desarrollo para Python',
     link: '/docs/tutoriales/guia-instalacion',
-    date: '2024-11-19',
+    date: '2025-11-24',
   },
 ];
 
