@@ -6,35 +6,35 @@ const sidebars = {
     'introduccion',
     {
       type: 'category',
-      label: '📋 Documentos Oficiales',
+      label: ' Documentos Oficiales',
       items: [
         'documentos/guia-catedra',
       ],
     },
     {
       type: 'category',
-      label: '🛠️ Tutoriales',
+      label: ' Tutoriales',
       items: [
         'tutoriales/guia-instalacion',
       ],
     },
     {
       type: 'category',
-      label: '💻 Ejemplos de Código',
+      label: ' Ejemplos de Código',
       items: [
         'ejemplos/ejemplo-basico',
       ],
     },
     {
       type: 'category',
-      label: '📚 Material de Lectura',
+      label: ' Material de Lectura',
       items: [
         'lectura/material-1',
       ],
     },
     {
       type: 'category',
-      label: '🎓 Presentaciones',
+      label: ' Presentaciones',
       items: [
         'presentaciones/clase-1',
       ],

@@ -8,7 +8,7 @@ import styles from './index.module.css';
 
 const FeatureList = [
   {
-    title: '📘 Material Organizado',
+    title: ' Material Organizado',
     description: (
       <>
         Todo el material de la cátedra en un solo lugar: guías, tutoriales,
@@ -17,7 +17,7 @@ const FeatureList = [
     ),
   },
   {
-    title: '🚀 Fácil de Actualizar',
+    title: ' Fácil de Actualizar',
     description: (
       <>
         Sistema basado en Markdown que permite agregar y modificar contenido
@@ -26,7 +26,7 @@ const FeatureList = [
     ),
   },
   {
-    title: '🎯 Orientado a Objetos',
+    title: ' Orientado a Objetos',
     description: (
       <>
         Contenido especializado en Programación Orientada a Objetos con Python,
@@ -42,7 +42,7 @@ const RecentContent = [
   {
     title: 'Guía de Cátedra',
     type: 'documento',
-    typeLabel: '📄 Documento',
+    typeLabel: ' Documento',
     description: 'Programa completo de la materia, contenidos y evaluación',
     link: '/docs/documentos/guia-catedra',
     date: '2025-11-24',
@@ -58,7 +58,7 @@ const RecentContent = [
   {
     title: 'Ejemplo Avanzado POO',
     type: 'ejemplo',
-    typeLabel: '💻 Ejemplo',
+    typeLabel: ' Ejemplo',
     description: 'Implementación completa de los 4 pilares de POO en Python',
     link: '/docs/ejemplos/ejemplo-basico',
     date: '2025-11-24',
@@ -66,7 +66,7 @@ const RecentContent = [
   {
     title: 'Material de Lectura 1',
     type: 'lectura',
-    typeLabel: '📚 Lectura',
+    typeLabel: ' Lectura',
     description: 'Conceptos fundamentales de POO - Teoría',
     link: '/docs/lectura/material-1',
     date: '2025-11-24',
@@ -74,7 +74,7 @@ const RecentContent = [
   {
     title: 'Guía de Instalación',
     type: 'tutorial',
-    typeLabel: '🛠️ Tutorial',
+    typeLabel: ' Tutorial',
     description: 'Configurar el entorno de desarrollo para Python',
     link: '/docs/tutoriales/guia-instalacion',
     date: '2025-11-24',
@@ -120,7 +120,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/introduccion">
-            Comenzar 📖
+            Comenzar 
           </Link>
         </div>
       </div>
@@ -150,7 +150,7 @@ export default function Home() {
         <section className={styles.recentSection}>
           <div className="container">
             <Heading as="h2" className="text--center margin-bottom--lg">
-              📌 Contenido Reciente
+               Contenido Reciente
             </Heading>
             <div className="row">
               {RecentContent.map((item, idx) => (
@@ -173,13 +173,13 @@ export default function Home() {
         <section className={styles.quickAccess}>
           <div className="container">
             <Heading as="h2" className="text--center margin-bottom--lg">
-              🗂️ Explorar por Categoría
+               Explorar por Categoría
             </Heading>
             <div className="row">
               <div className="col col--4 col--12-mobile margin-bottom--md">
                 <Link to="/docs/documentos/guia-catedra" className={styles.quickLink}>
                   <div className={styles.quickLinkCard}>
-                    <h3>📄 Documentos</h3>
+                    <h3> Documentos</h3>
                     <p>Programas y guías oficiales</p>
                   </div>
                 </Link>
@@ -187,7 +187,7 @@ export default function Home() {
               <div className="col col--4 col--12-mobile margin-bottom--md">
                 <Link to="/docs/tutoriales/guia-instalacion" className={styles.quickLink}>
                   <div className={styles.quickLinkCard}>
-                    <h3>🛠️ Tutoriales</h3>
+                    <h3> Tutoriales</h3>
                     <p>Guías paso a paso</p>
                   </div>
                 </Link>
@@ -195,7 +195,7 @@ export default function Home() {
               <div className="col col--4 col--12-mobile margin-bottom--md">
                 <Link to="/docs/ejemplos/ejemplo-basico" className={styles.quickLink}>
                   <div className={styles.quickLinkCard}>
-                    <h3>💻 Ejemplos</h3>
+                    <h3> Ejemplos</h3>
                     <p>Código comentado</p>
                   </div>
                 </Link>
@@ -203,7 +203,7 @@ export default function Home() {
               <div className="col col--6 col--12-mobile margin-bottom--md">
                 <Link to="/docs/lectura/material-1" className={styles.quickLink}>
                   <div className={styles.quickLinkCard}>
-                    <h3>📚 Material de Lectura</h3>
+                    <h3> Material de Lectura</h3>
                     <p>Teoría y conceptos</p>
                   </div>
                 </Link>
@@ -211,7 +211,7 @@ export default function Home() {
               <div className="col col--6 col--12-mobile margin-bottom--md">
                 <Link to="/docs/presentaciones/clase-1" className={styles.quickLink}>
                   <div className={styles.quickLinkCard}>
-                    <h3>🎓 Presentaciones</h3>
+                    <h3> Presentaciones</h3>
                     <p>Slides de clase</p>
                   </div>
                 </Link>
@@ -224,12 +224,12 @@ export default function Home() {
         <section className={styles.ctaSection}>
           <div className="container">
             <div className={styles.ctaBox}>
-              <Heading as="h3">👨‍🏫 ¿Sos docente?</Heading>
+              <Heading as="h3"> ¿Sos docente?</Heading>
               <p>Revisá el manual para aprender a subir y gestionar contenido</p>
               <Link
                 className="button button--secondary button--lg"
                 to="https://github.com/martinprlt/Portal-programacion-II/blob/main/MANUAL_CATEDRA.md">
-                Ver Manual 📖
+                Ver Manual 
               </Link>
             </div>
           </div>

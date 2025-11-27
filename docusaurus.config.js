@@ -79,11 +79,11 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: '📚 Documentación',
+            label: ' Documentación',
           },
           {
             to: '/blog', 
-            label: '📰 Novedades', 
+            label: ' Novedades', 
             position: 'left'
           },
           {
